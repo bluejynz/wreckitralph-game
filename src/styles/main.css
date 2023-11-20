@@ -1,0 +1,71 @@
+body {
+  color: #E2E2E2;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-image: url("../images/wall.png");
+}
+
+.menu {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  height: 90px;
+  width: 100%;
+
+  background-color: #121212;
+  border-bottom: 5px solid #D21212;
+}
+
+.menu-lives {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-time h2:nth-child(2), 
+.menu-score h2:nth-child(2) {
+  margin-top: 1rem;
+}
+
+.panel {
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.square {
+  height: 150px;
+  width: 150px;
+  border: 2px solid #121212;
+  background-color: #55B2C2;
+}
+
+.ralph {
+  background-image: url("../images/ralph.png");
+  background-size: cover;
+}
+
+.footer {
+  background-color: #121212;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 8px;
+}
+
+.footer > a {
+  color: #E2E2E2;
+  text-decoration: none;
+  transition: .1s ease;
+}
+
+.footer > a:hover {
+  color: #D21212;
+}
